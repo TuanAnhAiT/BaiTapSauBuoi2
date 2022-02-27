@@ -95,6 +95,7 @@ i.nav-link{
 }
 .banner img{
     top: -55px;
+    width: 100%;
     position: relative;
     z-index: -1;
 }
