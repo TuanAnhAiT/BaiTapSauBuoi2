@@ -1,0 +1,318 @@
+.header .container-fluid.header-top{
+    height: 30px;
+    background-color: #222222;
+}
+.top-info .top-info-item{
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+.header-top .row .nav-top{
+    padding: 0;
+}
+.nav-top .nav-top-item{
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.nav-top-item:hover{
+    color: red
+}
+/* end css header top */
+.header .container-fluid.header-main{
+    height: 50px;
+    background-color: black;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    padding: 0;
+    background-color: black!important;
+}
+a.navbar-brand {
+    padding: 0;
+}
+li.nav-item{
+    cursor: pointer;
+}
+li.nav-item.active .nav-link{
+    border-bottom: 3px solid red;
+}
+li.nav-item:hover .nav-link{
+    border-bottom: 3px solid red;
+    color: white;
+}
+a.nav-link{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-top: auto;
+}
+i.nav-link{
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+.navbar-nav.mr-auto{
+    padding-left: 185px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    border-radius: 5px;
+    font-size: 13px;
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    z-index: 1;
+    list-style: none;
+}
+.dropdown-content .dropdown-item{
+    padding: 5px 40px 5px 15px;
+    color: #999;
+}
+.sub-menu-item{
+    border-left: 1px solid #999;
+}
+.sub-menu-item .dropdown-item{
+    padding: 5px 20px 5px 10px;
+}
+.sub-menu-item .dropdown-item.pt-3{
+    font-weight: bold;
+    font-size: 11px;
+    color: black;
+}
+.search-group{
+    padding: 15px 20px 0px 20px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* end css navbar */
+.banner{
+    height: 620px;
+}
+.banner img{
+    top: -55px;
+    position: relative;
+    z-index: -1;
+}
+.content{
+    background-color: rgb(242, 242, 242);
+}
+.splicing-products .title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: red;
+    margin-top: 10px;
+}
+.product-type ul{
+    width: 40vw;
+    margin: auto;
+    list-style: none;
+}
+li.product-type-item{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(102,102,102,0.85);
+    cursor: pointer;
+    transition: 0.4s;
+}
+li.product-type-item:hover{
+    color: rgba(17,17,17,0.85);
+    border-bottom: 2px solid black;
+}
+li.product-type-item.active{
+    color: rgba(17,17,17,0.85);
+    border-bottom: 2px solid black;
+}
+.product-item{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.product-item:hover{
+    box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+.product-item .product-title{
+    font-size: 10px;
+    margin: 0;
+    transition: 0.4s;
+}
+.product-item .product-title:hover{
+    color: red;
+}
+.product-item .product-price{
+    font-size: 11px;
+    font-weight: bold;
+}
+/* end css splicing products */
+.feature-list .feature-list-item{
+    width: 32%;
+    height: 87vh;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.4s;
+}
+.feature-list .feature-list-item:hover{
+    background-size: 110%;
+}
+.feature-title{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.feature-title::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    margin-top: 10px;
+}
+.feature-right .feature-right-item{
+    height: 47%;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.4s;
+}
+.feature-right .feature-right-item:hover{
+    background-size: 110%;
+}
+.feature-list .feature-left{
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/cm1.jpg);
+}
+.feature-list .feature-center{
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/cm3.jpg);
+}
+.feature-right .pierre-carding{
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/banner-pierre-cardin.jpg);
+}
+.feature-right .accessory{
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/cm4crop.jpg);
+}
+/* end css feature list */
+.banner-company{
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/about.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    color: white;
+}
+.company-title::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: red;
+    margin-top: 10px;
+}
+.banner-company .btn{
+    cursor: pointer;
+    border-radius: 0;
+}
+/* end css banner company */
+.news-event{
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/news2-bg.jpg);
+}
+.news-event .title::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: red;
+    margin-top: 10px;
+}
+.event-item:hover{
+    box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    cursor: pointer;
+}
+.event-item .card-body{
+    padding: 1rem;
+}
+.event-item .event-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.event-item .event-describe{
+    font-size: 11px;
+    transition: 0.4s;
+}
+.event-item .event-describe:hover{
+    color: red;
+}
+.event-item .see-more{
+    color: #666;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+/* end css event */
+.achievement{
+    height: 200px;
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: 50% 50%;
+    color: white;
+}
+.achievement-item .amount{
+    text-align: center;
+}
+.achievement-item .amount::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: red;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.achievement-item .name{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+/* end css achievement */
+.partner .partner-item{
+    width: 12%;
+    text-align: center;
+    cursor: pointer;
+}
+/* end css partner */
+.footer{
+    background-color: #222222;
+    color: #999;
+    font-size: 13px;
+}
+.footer-item{
+    width: 23%;
+}
+.footer-item .title{
+    color: white;
+    font-weight: bold;
+}
+.footer-item.info span:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer-item.about-us p:hover, .footer-item.customer-support p:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer-bottom{
+    background-color: black;
+    text-align: center;
+
+}
+.footer-bottom .mona-media{
+    font-weight: 500;
+    cursor: pointer;
+}
+.mona-media:hover{
+    color: white;
+}
+
